@@ -9,7 +9,21 @@ prompt:~$ sudo mkdir /data/db # used by Mongodb
 prompt:~$ sudo apt-get install mongodb # install mongodb
 prompt:~$ mongo # test the connection
 
-## Usefull commands on Mongodb:
+# Configuring environment variables
+
+Lets edit your bashrc and add the variables "MONGO_URL" AND "MONGO_DATABASE_NAME" into your environment:
+
+	prompt:~$ sudo gedit ~/.bashrc
+
+Add the following content at last line of the file:
+
+	export MONGO_URL="mongodb://localhost"
+	export MONGO_DATABASE_NAME="databr"
+	
+prompt:~$ echo $MONGO_URL $MONGO_DATABASE_NAME
+mongodb://localhost databr
+
+# Usefull commands on Mongodb:
 
 	show dbs
 	use databr 		 // 	switch between databases.
