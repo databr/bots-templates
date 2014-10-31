@@ -5,9 +5,9 @@ Quick-start Bots templates for multiple programming languages.
 
 # Configuring MongoDB
 
-prompt:~$ sudo mkdir /data/db # used by Mongodb
-prompt:~$ sudo apt-get install mongodb # install mongodb
-prompt:~$ mongo # test the connection
+	prompt:~$ sudo mkdir /data/db # used by Mongodb
+	prompt:~$ sudo apt-get install mongodb # install mongodb
+	prompt:~$ mongo # test the connection
 
 # Configuring environment variables
 
