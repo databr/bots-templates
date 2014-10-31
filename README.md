@@ -1,4 +1,4 @@
-bots-templates
+Bots Templates
 ==============
 
 Quick-start Bots templates for multiple programming languages.
